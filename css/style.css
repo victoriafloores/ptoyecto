@@ -1,0 +1,83 @@
+/* <!--Paso 3--> Reiniciar */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/* Estilo Men� */
+html, body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ line-height: 1.7em;
+}
+a {
+ color: #333;
+ text-decoration: none;
+}
+h1, h2, h3 {
+ padding-bottom: 20px;
+}
+p {
+ margin: 10px 0;
+}
+/* Clases Generales */
+/* container mantendr� el contenido centrado y con un m�ximo de ancho */
+.container {
+ margin: auto;
+ max-width: 1100px;
+ overflow: auto;
+ padding: 0 20px;
+}
+/* Navbar */
+#hola {
+  background: ##07A7A1;
+  color: #07A7A1;
+  overflow: auto;
+}
+#hola a {
+ color: #075BA7;
+}
+#hola h1 {
+ float: left;
+ padding-top: 20px;
+}
+#hola ul {
+ list-style: none;
+ float: right;
+}
+#hola ul li{
+ float: left;
+}
+#hola ul li a {
+ display: block;
+ padding: 20px;
+ text-align: center;
+}
+#hola ul li a:hover,
+#hola ul li a.current {
+ border-color: #A70792;
+ background: ##F597E8;
+ color: ##BFF597;
+}
+
+/*------<!--Paso 5--> */
+.text-primary {
+ color:##E22406;
+}
+
+.lead {
+ font-size: 20px;
+}
+
+.btn {
+ display: inline-block;
+ font-size: 18px;
+ color: #DBE206;
+ background: ##648DF7;
+ padding: 13px 20px;
+ border: none;
+ cursor: pointer;
+}
+
+.btn:hover {
+ background: ##648DF7;
+}
